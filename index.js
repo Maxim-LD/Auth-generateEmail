@@ -97,7 +97,7 @@ app.post("/login", validateLogin, async (req, res)=>{
     
 })
 
-app.get("/generate-certificate", validateEmail, async (req, res)=>{
+app.get("/generate-certificate", async (req, res)=>{
 
     try {
 
