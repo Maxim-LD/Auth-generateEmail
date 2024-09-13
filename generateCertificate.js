@@ -62,7 +62,7 @@ const generateCertificate = (name, course)=>{
             resolve(filePath)
         })
 
-    })    
+})    
 
 } 
 
